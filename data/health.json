@@ -1,0 +1,74 @@
+{
+    "doctors": {
+        "bashir": {
+            "first_name": "Julien",
+            "last_name": "Bashir",
+            "affiliation": "Deep Space Nine"
+        },
+        "pulaski": {
+            "first_name": "Katherine",
+            "last_name": "Pulaski",
+            "affiliation": "The Next Generation"
+        },
+        "mccoy": {
+            "first_name": "Leonard",
+            "last_name": "McCoy",
+            "affiliation": "Reboot"
+        },
+        "crusher": {
+            "first_name": "Beverly",
+            "last_name": "Crusher",
+            "affiliation": "The Next Generation"
+        }
+    },
+    "patients": {
+        "dax": {
+            "first_name": "Jadzia",
+            "last_name": "Dax",
+            "ailment": "Transporter Psychosis",
+            "doctor_id": "bashir"
+        },
+        "laren": {
+            "first_name": "Ro",
+            "last_name": "Laren",
+            "ailment": "Cellular Ennui",
+            "doctor_id": "bashir"
+        },
+        "garak": {
+            "first_name": "Elim",
+            "last_name": "Garak",
+            "ailment": "Interspatial Parasites",
+            "doctor_id": "pulaski"
+        },
+        "dukat": {
+            "first_name": "Skrain",
+            "last_name": "Dukat",
+            "ailment": "Klingon Augment Virus",
+            "doctor_id": "pulaski"
+        },
+        "nerys": {
+            "first_name": "Kira",
+            "last_name": "Nerys",
+            "ailment": "Legato Infection",
+            "doctor_id": "mccoy"
+        },
+        "sisko": {
+            "first_name": "Ben",
+            "last_name": "Sisko",
+            "ailment": "Auroral Plague",
+            "doctor_id": "mccoy"
+        },
+        "picard": {
+            "first_name": "Jean-luc",
+            "last_name": "Picard",
+            "ailment": "Life Prolongation Complex",
+            "doctor_id": "crusher"
+        },
+        "kirk": {
+            "first_name": "James",
+            "last_name": "Kirk",
+            "ailment": "Polywater Intoxication",
+            "doctor_id": "crusher"
+        }
+    }
+}
