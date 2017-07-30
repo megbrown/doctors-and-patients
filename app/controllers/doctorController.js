@@ -1,16 +1,20 @@
 "use strict";
 
 healthApp.controller("DoctorListCtrl", function($scope, DoctorListFactory) {
-	console.log("hey");
 
+	let doctorArr = [];
 	DoctorListFactory.getDoctors()
 	.then( (doctors) => {
-		let doctorArr = [];
-		angular.forEach(doctors.data, function(obj) {
-			doctorArr.push(obj);
+		let doctorData = doctors.data;
+		Object.keys(doctorData).forEach( (key) => {
+			doctorData[key].id = key;
+			doctorArr.push(doctorData[key]);
 		});
 		console.log(doctorArr);
 		$scope.doctors = doctorArr;
+	})
+	.catch( (err) => {
+		console.log("error!!!", err);
 	});
 
 });
